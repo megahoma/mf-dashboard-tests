@@ -1,0 +1,18 @@
+.shell {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  font: 16px/1.5 sans-serif;
+}
+
+.shell__title,
+.shell__status {
+  margin: 0;
+}
+
+.shell__widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}

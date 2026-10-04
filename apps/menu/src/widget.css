@@ -1,0 +1,42 @@
+.menu {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #d7dde5;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.widget-props {
+  margin: 0;
+  padding: 8px 10px;
+  overflow: auto;
+  border-radius: 8px;
+  background: #f6f8fa;
+  font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: pre-wrap;
+}
+
+.menu__title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__list li {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f6f8fa;
+}
+
+.menu__status {
+  margin: 0;
+}

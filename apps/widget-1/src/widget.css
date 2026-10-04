@@ -1,0 +1,33 @@
+.w1 {
+  display: grid;
+  gap: 12px;
+  width: min(360px, 100%);
+  padding: 16px;
+  border: 1px solid #d7dde5;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.w1__title,
+.w1__status {
+  margin: 0;
+}
+
+.widget-props {
+  margin: 0;
+  padding: 8px 10px;
+  overflow: auto;
+  border-radius: 8px;
+  background: #f6f8fa;
+  font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: pre-wrap;
+}
+
+.w1__title {
+  font-size: 16px;
+}
+
+.w1__notes {
+  margin: 0;
+  padding-left: 18px;
+}

@@ -1,0 +1,36 @@
+.w2 {
+  display: grid;
+  gap: 12px;
+  width: min(320px, 100%);
+  padding: 16px;
+  border: 1px solid #d7dde5;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.w2__title,
+.w2__status {
+  margin: 0;
+}
+
+.widget-props {
+  margin: 0;
+  padding: 8px 10px;
+  overflow: auto;
+  border-radius: 8px;
+  background: #f6f8fa;
+  font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: pre-wrap;
+}
+
+.w2__title {
+  font-size: 16px;
+}
+
+.w2__table {
+  border-collapse: collapse;
+}
+
+.w2__table td {
+  padding: 4px 12px 4px 0;
+}
